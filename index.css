@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:2000px;
+    margin: auto;
+    padding: 0px 32px;
+}
+nav {
+    width: 100%;
+    background: rgb(115, 185, 196);
+    padding: 30px 10px;
+  }
+  nav .bas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .bas .sol {
+    width: 80px;
+    height: 40px;
+    background: rgb(42, 201, 28);
+  }
+  nav .bas .orta {
+    width: 500px;
+    height: 40px;
+    background: rgb(208, 31, 43);
+  }
+  nav .bas .button {
+    width: 80px;
+    height: 40px;
+    background: rgb(61, 12, 158);
+}
+
+section{
+    width: 100%;
+    background-color: rgb(68, 152, 185);
+    padding: 50px 10px;
+  }
+section .qom1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+section .qom1 div {
+    width: 50%;
+    height: 450px;
+    background-color: rgb(30, 128, 38);
+  }
+.qom2{
+    width: 100%;
+    height: 650px;
+    padding: 0 20px;
+    background-color: rgb(28, 231, 75);
+}
+.qom3{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    gap: 100px;
+}
+.qom3 .qoma{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(240, 178, 64);
+}
+.qom3 .qomb{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 100px;
+}
+.qomb div{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 0, 102);
+}
+.qom4{
+    width: 100%;
+    height: 650px;
+    padding: 0 20px;
+    background-color: rgb(50, 163, 163);
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    gap: 100px;
+}
+.yer .yer1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 40px;
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+}
+.yer .yer1 div{
+    width: 300px;
+    height: 80px;
+    background-color: rgb(13, 223, 51);
+}
+.yer .yer2{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.yer2 div{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(148, 11, 11);
+}
+.hava{
+    width: 100%;
+    height: 650px;  
+    padding: 0 20px;
+    background-color: rgb(25, 191, 47);
+}
+.qar{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    gap: 100px;
+}
+.qar div{
+    width: 50%;
+    height: 200px;
+    background-color: rgb(66, 34, 113);
+}
+
+.taq{
+    width: 100%;
+    height: 650px;
+    padding: 0 20px;
+    background-color: rgb(38, 24, 128);
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    gap: 100px;
+}
+.con .con1{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(143, 240, 64);
+}
+.con .con2{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height: 100px;
+    gap: 50px;
+}
+.con2 div{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(56, 154, 71);
+}
+.tion{
+    width: 100%;
+    height: 325px;
+    background-color: rgb(25, 157, 197);
+    padding: 0 20px;
+}
+.tion .son{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+.tion .son div{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(110, 186, 79);
+}
+.tion .son .but{
+    width:170px;
+    height: 30px;
+    padding: 30px;
+    margin: 80px 140px;
+    background-color:white;
+    border-radius:12px;
+}
+footer{
+    width: 100%;
+    height: 325px;
+    background-color: rgb(6, 19, 23);
+    padding: 0 20px;
+}
+footer .foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    align-items: center;
+}
+footer .foot div {
+    width: 160px;
+    height: 160px;
+    background-color: rgb(89, 99, 203);
+}
+footer div .orfo{
+height: 30px;
+padding: 30px;
+margin:40px 30px;
+width: 70%;
+background-color: aqua;
+}
